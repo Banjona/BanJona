@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BanJona</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Banjo music community</p>
+      <h1>BanJona</h1>
+      <p>Learn banjo chords, discover songs, and build your banjo skills with a simple, modern web experience.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#features">Explore</a>
+        <button class="button secondary" id="listenButton">Play a riff</button>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="banjo-card">
+        <div class="banjo-body"></div>
+        <div class="banjo-neck"></div>
+        <div class="banjo-string banjo-string-1"></div>
+        <div class="banjo-string banjo-string-2"></div>
+        <div class="banjo-string banjo-string-3"></div>
+        <div class="banjo-string banjo-string-4"></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="features" class="section">
+      <h2>What is BanJona?</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Banjo lessons</h3>
+          <p>Practice chords, fingerpicking patterns, and classic song structures on a friendly learning path.</p>
+        </article>
+        <article class="card">
+          <h3>Song ideas</h3>
+          <p>Browse featured banjo songs, jam tracks, and inspirational riffs built for beginners to pros.</p>
+        </article>
+        <article class="card">
+          <h3>Community</h3>
+          <p>Share your progress, swap tabs, and celebrate banjo music with other players.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="chords" class="section section-alt">
+      <div class="section-copy">
+        <h2>Start with basic chords</h2>
+        <p>Banjo playing begins with a few essential chords. Try one at random to stay inspired.</p>
+      </div>
+      <div class="chord-panel">
+        <p class="chord-label">Current chord</p>
+        <div class="chord-display" id="chordDisplay">G</div>
+        <button class="button primary" id="randomChordButton">Show random chord</button>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>Build something musical</h2>
+      <p>BanJona is a lightweight home for banjo players who want a simple, elegant way to explore songs and chord progressions.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>BanJona &copy; 2026 · Built for banjo players.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
